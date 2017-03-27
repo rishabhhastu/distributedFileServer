@@ -13,14 +13,14 @@
 - Time out
 
 * Python Version : 3.5 *
-## Program Usage:
+## Program Usage
 ```
       $ python dfs.py [Folder] [Port]
 
 Folder: Specify the name of folder for the DFS instance. Select from "DFS1","DFS2","DFS3","DFS4"
 Port: Specify the port number between 1025 and 65535
 ```
-## Whats in the progrm?:
+## Whats in the progrm?
 1. After the user input is taken, sockets are created and user authentication happens
 
 2. The Put function breaks the file (if present) into 8 pieces, encrypts them using ferret library and sends them to the respected servers under the directory of the username. If subfolder is given as an input, the pieces are placed inside the subfolder which is in the username folder.
