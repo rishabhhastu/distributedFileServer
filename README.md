@@ -15,14 +15,14 @@
 * Python Version : 3.5 *
 ## Program Usage
 ```
-For Distributed File Server
+*For Distributed File Server*
 
       $ python dfs.py [Folder] [Port]
 
 Folder: Specify the name of folder for the DFS instance. Select from "DFS1","DFS2","DFS3","DFS4"
 Port: Specify the port number between 1025 and 65535
 
-For Distributed File CLient
+*For Distributed File CLient*
 
       $ python dfc.py [config file]
       
